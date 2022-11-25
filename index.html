@@ -4,20 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manipulacion del DOM basica</title>
+    <title>calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/xd.png">
 </head>
 <body>
-    <h1 class="verde">Manipulacion del DOM</h1>
-
-    <form id="form">
+    <header class="header-container">
+        <div><img class="logo" src="./img/nose.webp" alt=""></div>
+        <div><h1>Super calculator</h1></div>
+    </header>
+    <section class="first-section">
+        <div class="div">
+            <div class="inputs-text">Numero uno:</div>
+            <div class="inputs"><input type="number" id="numUno" name="numUno"></div>
+        </div>
+        <div class="div">
+            <div class="inputs-text">Numero dos:</div>
+            <div class="inputs"><input type="number" id="numDos" name="numDos" ></div>
+        </div>
+       
+        <div class="div">
+            <div class="inputs-text">Resultado:</div>
+            <div class="inputs"><input type="text" id="result" name="result"></div>
+        </div>
+        <div class="options">Opciones</div>
+        <div class="buttones">
+            <button class="button button-1" onclick="sumar()">+</button>
+            <button class="button button-2" onclick="restar()">-</button>
+            <button class="button button-3" onclick="multiplicar()">*</button>
+            <button class="button button-4" onclick="dividir()">/</button>
+            <button class="button button-5" onclick="raizCuadrada()">√</button>
+            <button class="button button-6" onclick="potencias()">^</button>
+        </div>
         
-        <input id = "calculo1" type="number" placeholder="escribe algo aqui uwu" value="123">
-        <input id="calculo2" type="number">
-        <button id="btnCalcular">calcular</button>
-
-        <p id="resultado"></p>
-    </form>
-
-    <script src="./js/script.js"></script>
+    </section>
+    
+</body>
+<script src="./js/calculadora.js"></script>
+</html>
 </body>
 </html>

@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 62.5%;
+}
+body{
+    background-color: yellow;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    color: blue;
+    width: auto;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 550px;
+    margin-right: 500px;
+    max-width: 900px;
+    min-height: 320px;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.inputs-text{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.inputs{
+    text-align: center;
+    top: 60px;
+}
+.options{
+    text-align: center;
+    margin-bottom: 10px;
+    color: blueviolet;
+    font-size: 1.3rem;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.buttones{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 30px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 50px;
+    color: red;
+    background-color: gray;
+    cursor: pointer;
+}
+.button-1{
+    background-color: aqua;
+}
+.button-2{
+    background-color: aquamarine;
+}
+.button-3{
+    background-color: cadetblue;
+}
+.button-4{
+    background-color: blueviolet;
+}
+.button-5{
+    background-color: blue;
+}
